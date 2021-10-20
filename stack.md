@@ -17,4 +17,8 @@ Includes the technology itself and some reasoning as to why
 ## Backend
 
 - Python 3
+  - Asynchronous operations
+  - [FastAPI](https://github.com/tiangolo/fastapi)
 - PostgreSQL
+  - Fast database
+  - Database driver: [encode/databases](https://github.com/encode/databases)
