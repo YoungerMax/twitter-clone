@@ -19,6 +19,6 @@ Includes the technology itself and some reasoning as to why
 - Python 3
   - Asynchronous operations
   - [FastAPI](https://github.com/tiangolo/fastapi)
+  - [encode/databases](https://github.com/encode/databases), [SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy), [Alembic](https://github.com/sqlalchemy/alembic)
 - PostgreSQL
   - Fast database
-  - Database driver: [encode/databases](https://github.com/encode/databases)
