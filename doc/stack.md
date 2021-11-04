@@ -4,10 +4,9 @@ Includes the technology itself and some reasoning as to why
 
 ## Frontend
 
-- Svelte 3
-  - This will probably end up being a Single Page App
-  - Small bundle size
-  - Good developer experience
+- SvelteKit
+  - Multi-page apps
+  - Svelte is awesome
 - TypeScript
   - Will help to prevent client side errors
 - Tailwind CSS
