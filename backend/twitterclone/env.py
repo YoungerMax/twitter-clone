@@ -18,6 +18,7 @@ handle_regex = cfg.get('user', 'handle_regex')
 min_handle_length = cfg.getint('user', 'min_handle_length')
 max_handle_length = cfg.getint('user', 'max_handle_length')
 
+# password
 min_password_length = cfg.getint('user', 'min_password_length')
 max_password_length = cfg.getint('user', 'max_password_length')
 
@@ -28,3 +29,4 @@ time_cost = cfg.getint('security', 'time_cost')
 memory_cost = cfg.getint('security', 'memory_cost')
 parallelism = cfg.getint('security', 'parallelism')
 
+tweet_max_length = cfg.getint('tweets', 'max_length')
