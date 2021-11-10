@@ -17,5 +17,6 @@ All following directions assume that you are in the root of this repository.
 
 ## Run it
 1. Start your PostgreSQL server
-2. Run `python3 backend/twitterclone/`
-3. Visit http://127.0.0.1:8000/docs
+2. Change your working directory to `backend/`
+3. Run `python3 -m twitterclone`
+4. Visit http://127.0.0.1:8000/docs

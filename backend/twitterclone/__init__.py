@@ -1,19 +1,24 @@
 import re
 from datetime import datetime
 
+# argon2 is argon2-cffi
 import argon2
 import orm.exceptions
 from fastapi import FastAPI, Path, Form, Depends, status
 from fastapi.exceptions import HTTPException
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 
-import env
-import database
-from database import User, UserSchema, TweetSchema
+from twitterclone import env
+from twitterclone import database
+from twitterclone.database import User, UserSchema, TweetSchema
+
+from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title='Twitter Clone'
 )
+
+app.add_middleware(CORSMiddleware, allow_origins=['*'])
 
 basic_auth = HTTPBasic()
 

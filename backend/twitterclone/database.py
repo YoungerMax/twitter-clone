@@ -6,7 +6,7 @@ from databases.core import Database
 from orm import ModelRegistry, Model, BigInteger, String, DateTime, ForeignKey
 from pydantic.main import BaseModel
 
-import env
+from twitterclone import env
 
 database = Database(env.db_uri)
 registry = ModelRegistry(database)
